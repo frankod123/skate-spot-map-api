@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Devonshire Green Skatepark",
+    "slug": "Devonshire-Green-Skatepark",
+    "description": "A concrete skatepark close to the city centre",
+    "address": "158 Devonshire St, Sheffield City Centre, Sheffield S1 4GT"
+  },
+  {
+    "id": "2",
+    "title": "Millhouses Skatepark",
+    "slug": "Millhouses-Skatepark",
+    "description": "A concrete skatepark",
+    "address": "Ranulf Court, 60 Abbeydale Rd S, Sheffield S7 2PZ"
+  },
+  {
+    "id": "3",
+    "title": "Meersbrook Bowl",
+    "slug": "Meersbrook-Bowl",
+    "description": "A concrete bowl",
+    "address": "173 Chesterfield Rd, Meersbrook, Sheffield S8 0RP"
+  },
+  {
+    "id": "4",
+    "title": "Cookson Skatepark",
+    "slug": "Cookson-Skatepark",
+    "description": "A concrete skatepark",
+    "address": "5 Halliwell Cres, Sheffield S5 8LX"
+  }
+]
