@@ -8,11 +8,11 @@ router.get("/", (req, res) => {
   res.status(200).json(skateSpots);
 });
 
-router.get("/:id", (req, res) => {
+router.get("/:slug", (req, res) => {
   const skateSpots = JSON.parse(fs.readFileSync("./data/skate-spots.json"));
 
   const selectedSkateSpot = skateSpots.find((skateSpot) => {
-    return skateSpot.id === req.params.id;
+    return skateSpot.slug === req.params.slug;
   });
 
   res.status(201).json(selectedSkateSpot);
