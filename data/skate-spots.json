@@ -3,37 +3,45 @@
     "id": "1",
     "title": "Devonshire Green Skatepark",
     "slug": "Devonshire-Green-Skatepark",
-    "description": "A concrete skatepark close to the city centre",
+    "description": "A concrete skatepark close to the city centre.",
     "address": "158 Devonshire St, Sheffield City Centre, Sheffield S1 4GT",
     "image": "http://localhost:8080/images/dev-large.jpeg",
-    "floodlights": "Yes"
+    "lighting": "Floodlights",
+    "environment": "Outdoors",
+    "pricing": "Free"
   },
   {
     "id": "2",
     "title": "Millhouses Skatepark",
     "slug": "Millhouses-Skatepark",
-    "description": "A concrete skatepark",
+    "description": "A concrete skatepark.",
     "address": "Ranulf Court, 60 Abbeydale Rd S, Sheffield S7 2PZ",
     "image": "http://localhost:8080/images/milly-2.jpeg",
-    "floodlights": "No"
+    "lighting": "No floodlights",
+    "environment": "Outdoors",
+    "pricing": "Free"
   },
   {
     "id": "3",
     "title": "Meersbrook Bowl",
     "slug": "Meersbrook-Bowl",
-    "description": "A concrete bowl",
+    "description": "A concrete bowl.",
     "address": "173 Chesterfield Rd, Meersbrook, Sheffield S8 0RP",
     "image": "http://localhost:8080/images/meersbrook-large.jpeg",
-    "floodlights": "No"
+    "lighting": "No floodlights",
+    "environment": "Outdoors",
+    "pricing": "Free"
   },
   {
     "id": "4",
     "title": "Cookson Skatepark",
     "slug": "Cookson-Skatepark",
-    "description": "A concrete skatepark",
+    "description": "A concrete skatepark.",
     "address": "5 Halliwell Cres, Sheffield S5 8LX",
     "image": "http://localhost:8080/images/cookson-large.jpeg",
-    "floodlights": "No"
+    "lighting": "No floodlights",
+    "environment": "Outdoors",
+    "pricing": "Free"
   },
   {
     "id": "5",
@@ -42,24 +50,30 @@
     "description": "A large, indoor, wooden-floored skatepark with banks, ramps, quarter pipes and a vert wall.",
     "address": "Unit D, Bardwell Road, Sheffield S3 8AS",
     "image": "http://localhost:8080/images/house.jpeg",
-    "floodlights": "N/A"
+    "lighting": "Indoor lighting",
+    "environment": "Indoors",
+    "pricing": "Charges apply"
   },
   {
     "id": "6",
     "title": "Onboard Skatepark",
     "slug": "Onboard-Skatepark",
-    "description": "An indoor wooden skatepark",
+    "description": "An indoor wooden skatepark.",
     "address": "Little London Rd, Sheffield S8 0UH",
     "image": "http://localhost:8080/images/onboard-large.jpeg",
-    "floodlights": "N/A"
+    "lighting": "Indoor lighting",
+    "environment": "Indoors",
+    "pricing": "Charges apply"
   },
   {
     "id": "7",
     "title": "Sheffield City Hall",
     "slug": "Sheffield-City-Hall",
-    "description": "A flatground area with concrete benches",
+    "description": "A flatground area with concrete benches.",
     "address": "Barker's Pool, Sheffield City Centre, Sheffield S1 2JA",
-    "image": "http://localhost:8080/images/city-hall-large.jpeg",
-    "floodlights": "Yes"
+    "image": "http://localhost:8080/images/city-hall-large.png",
+    "lighting": "Street lights",
+    "environment": "Outdoors",
+    "pricing": "Free"
   }
 ]
