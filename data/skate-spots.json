@@ -3,45 +3,89 @@
     "id": "1",
     "title": "Devonshire Green Skatepark",
     "slug": "Devonshire-Green-Skatepark",
-    "description": "A concrete skatepark close to the city centre.",
+    "description": "A concrete skatepark situated in the heart of the city. It offers a diverse range of features such as ramps, ledges, banks, and rails.",
     "address": "158 Devonshire St, Sheffield City Centre, Sheffield S1 4GT",
     "image": "http://localhost:8080/images/dev-large.jpeg",
+    "image2": "http://localhost:8080/images/dev-2.jpeg",
+    "image3": "http://localhost:8080/images/dev-5.jpeg",
     "lighting": "Floodlights",
-    "environment": "Outdoors",
-    "pricing": "Free"
+    "environment": "Outdoor",
+    "pricing": "Free",
+    "comments": [
+      {
+        "id": "10",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   },
   {
     "id": "2",
     "title": "Millhouses Skatepark",
     "slug": "Millhouses-Skatepark",
-    "description": "A concrete skatepark.",
+    "description": "A mainly street focused skatepark. It is based on two levels and contains banks, legdes and rails.",
     "address": "Ranulf Court, 60 Abbeydale Rd S, Sheffield S7 2PZ",
     "image": "http://localhost:8080/images/milly-2.jpeg",
+    "image2": "http://localhost:8080/images/milly-3.jpeg",
+    "image3": "http://localhost:8080/images/milly-4.jpeg",
     "lighting": "No floodlights",
-    "environment": "Outdoors",
-    "pricing": "Free"
+    "environment": "Outdoor",
+    "pricing": "Free",
+    "comments": [
+      {
+        "id": "11",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   },
   {
     "id": "3",
     "title": "Meersbrook Bowl",
     "slug": "Meersbrook-Bowl",
-    "description": "A concrete bowl.",
+    "description": "A double concrete bowl. It features one smaller bowl which then flows into the deeper bowl.",
     "address": "173 Chesterfield Rd, Meersbrook, Sheffield S8 0RP",
     "image": "http://localhost:8080/images/meersbrook-large.jpeg",
+    "image2": "http://localhost:8080/images/meersbrook-2.jpeg",
+    "image3": "http://localhost:8080/images/meersbrook-3.jpeg",
     "lighting": "No floodlights",
-    "environment": "Outdoors",
-    "pricing": "Free"
+    "environment": "Outdoor",
+    "pricing": "Free",
+    "comments": [
+      {
+        "id": "12",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   },
   {
     "id": "4",
     "title": "Cookson Skatepark",
     "slug": "Cookson-Skatepark",
-    "description": "A concrete skatepark.",
+    "description": "An all concrete, mainly bowl focused, skatepark. It is aimed more at BMX riders but there is still a lot for skaters to do here.",
     "address": "5 Halliwell Cres, Sheffield S5 8LX",
     "image": "http://localhost:8080/images/cookson-large.jpeg",
+    "image2": "http://localhost:8080/images/cookson-2.jpeg",
+    "image3": "http://localhost:8080/images/cookson-3.jpeg",
     "lighting": "No floodlights",
-    "environment": "Outdoors",
-    "pricing": "Free"
+    "environment": "Outdoor",
+    "pricing": "Free",
+    "comments": [
+      {
+        "id": "13",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   },
   {
     "id": "5",
@@ -50,30 +94,63 @@
     "description": "A large, indoor, wooden-floored skatepark with banks, ramps, quarter pipes and a vert wall.",
     "address": "Unit D, Bardwell Road, Sheffield S3 8AS",
     "image": "http://localhost:8080/images/house.jpeg",
+    "image2": "http://localhost:8080/images/house-2.jpeg",
+    "image3": "http://localhost:8080/images/house-3.jpeg",
     "lighting": "Indoor lighting",
-    "environment": "Indoors",
-    "pricing": "Charges apply"
+    "environment": "Indoor",
+    "pricing": "Charges apply",
+    "comments": [
+      {
+        "id": "14",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   },
   {
     "id": "6",
     "title": "Onboard Skatepark",
     "slug": "Onboard-Skatepark",
-    "description": "An indoor wooden skatepark.",
+    "description": "An indoor, wooden skatepark with a small street section, bowl and foam pit.",
     "address": "Little London Rd, Sheffield S8 0UH",
     "image": "http://localhost:8080/images/onboard-large.jpeg",
+    "image2": "http://localhost:8080/images/onboard-2.jpeg",
+    "image3": "http://localhost:8080/images/onboard-3.jpeg",
     "lighting": "Indoor lighting",
-    "environment": "Indoors",
-    "pricing": "Charges apply"
+    "environment": "Indoor",
+    "pricing": "Charges apply",
+    "comments": [
+      {
+        "id": "15",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   },
   {
     "id": "7",
     "title": "Sheffield City Hall",
     "slug": "Sheffield-City-Hall",
-    "description": "A flatground area with concrete benches.",
+    "description": "A large, open flatground area with marble benches, curbs and wallrides.",
     "address": "Barker's Pool, Sheffield City Centre, Sheffield S1 2JA",
     "image": "http://localhost:8080/images/city-hall-large.png",
+    "image2": "http://localhost:8080/images/city-hall-3.jpeg",
+    "image3": "http://localhost:8080/images/city-hall-4.jpeg",
     "lighting": "Street lights",
-    "environment": "Outdoors",
-    "pricing": "Free"
+    "environment": "Outdoor",
+    "pricing": "Free",
+    "comments": [
+      {
+        "id": "16",
+        "name": "Adam Jones",
+        "comment": "What an amazing place. Culture. Skatepark. Bliss.",
+        "likes": 3,
+        "timestamp": 1628522461000
+      }
+    ]
   }
 ]
