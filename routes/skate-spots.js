@@ -18,7 +18,7 @@ router.get("/:id", (req, res) => {
   res.status(201).json(selectedSkateSpot);
 });
 
-router.post("/:id", (req, res) => {
+router.post("/:id/comments", (req, res) => {
   const newComment = {
     id: crypto.randomBytes(16).toString("hex"),
     name: req.body.name,
@@ -27,11 +27,21 @@ router.post("/:id", (req, res) => {
     timestamp: Date.now(),
   };
 
-  const comments = JSON.parse(fs.readFileSync("./data/skate-spots.json"));
+  const skateSpots = JSON.parse(fs.readFileSync("./data/skate-spots.json"));
+  const selectedSkateSpot = skateSpots.find((spot) => {
+    return spot.id === req.params.id;
+  });
 
-  videos.push(newComment);
+  selectedSkateSpot.comments.push(newComment);
 
-  fs.writeFileSync("./data/skate-spots.json", JSON.stringify(comments));
+  const updatedSkateSpots = skateSpots.map((spot) =>
+    spot.id === selectedSkateSpot.id ? selectedSkateSpot : spot
+  );
+
+  fs.writeFileSync(
+    "./data/skate-spots.json",
+    JSON.stringify(updatedSkateSpots)
+  );
 
   res.status(201).json(newComment);
 });
